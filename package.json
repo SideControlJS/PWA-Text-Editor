@@ -1,19 +1,21 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Your Task",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
+    "start:dev": "nodemon server.js",
+    "start": "node server.js",
     "server": "",
-    "build": "",
+    "build": "cd client && npm run build",
     "install": "",
-    "client": ""
+    "client": "cd client && npm start",
+    "lint": "eslint .",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jesse Lare",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
@@ -21,5 +23,13 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SideControlJS/PWA-Text-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SideControlJS/PWA-Text-Editor/issues"
+  },
+  "homepage": "https://github.com/SideControlJS/PWA-Text-Editor#readme"
 }
