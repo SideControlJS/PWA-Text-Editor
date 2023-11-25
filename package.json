@@ -11,7 +11,7 @@
     "install": "",
     "client": "cd client && npm start",
     "lint": "eslint .",
-    "heroku-postbuild": "npm install -g webpack webpack-cli && cd client && npm install && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "webpack": "^5.89.0",
     "webpack-cli": "^4.10.0"
   },
