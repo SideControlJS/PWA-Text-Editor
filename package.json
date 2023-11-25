@@ -16,6 +16,10 @@
   "keywords": [],
   "author": "Jesse Lare",
   "license": "MIT",
+  "engines": {
+    "node": "18.18.1",
+    "npm": "9.6.7"
+},
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4"
