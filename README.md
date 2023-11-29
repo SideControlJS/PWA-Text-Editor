@@ -25,13 +25,13 @@ git clone https://github.com/SideControlJS/PWA-Text-Editor.git
 2. Navigate to the project directory:
 ```bash
 cd PWA-Text-Editor
+```
 Install dependencies:
-bash
-Copy code
+```bash
 npm install
+```
 Start the application:
-bash
-Copy code
+```bash
 npm start
 ```
 ## Usage
