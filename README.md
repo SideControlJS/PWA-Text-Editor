@@ -40,16 +40,8 @@ To start using JATE, open the application in your web browser, and click on "Ins
 ## Deployment
 This application is deployed on Heroku. The live application can be accessed [here.](https://jl-pwa-text-editor-97a6334771a9.herokuapp.com/)
 
-Contributing
+## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request or create an Issue for any bugs found or improvements you wish to share.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Acknowledgments
-The awesome team at 2U for providing the initial guidance.
-All the contributors and maintainers for their support and contributions.
-Contact Information
-Developer: [Your Name]
-Email: [Your Email]
-Project Link: https://github.com/SideControlJS/PWA-Text-Editor
